@@ -42,7 +42,6 @@ use {
     solana_program_runtime::{
         invoke_context::{EnvironmentConfig, InvokeContext},
         sysvar_cache::SysvarCache,
-        timings::ExecuteTimings,
     },
     solana_sdk::{
         account::AccountSharedData,
@@ -55,6 +54,7 @@ use {
         rent::Rent,
         transaction_context::{InstructionAccount, TransactionContext},
     },
+    solana_timings::ExecuteTimings,
     std::sync::Arc,
 };
 

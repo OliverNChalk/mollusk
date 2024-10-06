@@ -11,7 +11,6 @@ edition = { workspace = true }
 [dependencies]
 chrono = "0.4.38"
 num-format = { workspace = true }
-serde_json = { workspace = true }
 mollusk-svm = { path = "../harness", version = "0.0.1" }
 solana-sdk = { workspace = true }
 
